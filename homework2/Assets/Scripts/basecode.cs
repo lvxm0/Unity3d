@@ -150,7 +150,7 @@ namespace homework
 
 
     // 对岸边的管理
-    /*-----------------------------------CoastController------------------------------------------*/
+    
     public class CoastController
     {
         readonly GameObject coast;
@@ -256,7 +256,7 @@ namespace homework
     }
 
     //对船只的管理
-    /*-----------------------------------BoatController------------------------------------------*/
+   
     public class BoatController
     {
         readonly GameObject boat;
