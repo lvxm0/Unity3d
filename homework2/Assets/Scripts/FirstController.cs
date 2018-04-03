@@ -6,7 +6,7 @@ using homework;
 namespace homework
 {
     public class FirstController : MonoBehaviour, SceneController, UserAction
-    {//场景控制器，控制预设对象的载入，移动，行为的发生，以及游戏结果的检查
+    {//\场景控制器，控制预设对象的载入，移动，行为的发生，以及游戏结果的检查(^ w ^)/
 
         readonly Vector3 water_pos = new Vector3(0, 0.5F, 0);
 
