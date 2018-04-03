@@ -149,7 +149,7 @@ namespace homework
 
 
 
-    // 对岸边的管理
+    ////////////////////////////////////// 对岸边的控制
     
     public class CoastController
     {
@@ -255,7 +255,7 @@ namespace homework
         }
     }
 
-    //对船只的管理
+    /////////////////////////////////////////////对船只的控制
    
     public class BoatController
     {
