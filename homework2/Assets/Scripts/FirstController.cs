@@ -6,7 +6,7 @@ using homework;
 namespace homework
 {
     public class FirstController : MonoBehaviour, SceneController, UserAction
-    {
+    {//场景控制器，控制预设对象的载入，移动，行为的发生，以及游戏结果的检查
 
         readonly Vector3 water_pos = new Vector3(0, 0.5F, 0);
 
@@ -18,7 +18,7 @@ namespace homework
         public BoatController boat;
         private MyCharacterController[] characters;
 
-        void Awake()
+        void Awake()//载入资源，将director类的场景控制器指向当前的场景
         {
             Director director = Director.getInstance();
             director.currentSceneController = this;
@@ -32,8 +32,8 @@ namespace homework
             GameObject water = Instantiate(Resources.Load("Perfabs/Water", typeof(GameObject)), water_pos, Quaternion.identity, null) as GameObject;
             water.name = "water";
 
-            fromCoast = new CoastController(1);
-            toCoast = new CoastController(-1);
+            fromCoast = new CoastController(1);//1为起始岸
+            toCoast = new CoastController(-1);//-1为终点岸
             boat = new BoatController();
 
             loadCharacter();
@@ -70,7 +70,7 @@ namespace homework
             if (boat.isEmpty())
                 return;
             boat.Move();
-            userGUI.status = check_game_over();
+            userGUI.status = check_game_over();//将结果传给GUI
         }
 
         public void characterIsClicked(MyCharacterController characterCtrl)
