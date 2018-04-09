@@ -2,7 +2,7 @@
 - Main Camera增加Script Compoment 来和小球保持固定的距离。
 - 建立第二个摄像机来形成俯视图。
 - 场景中自己制作了天空盒。<br>
--**对游戏对象的总结**
+-<h1>对游戏对象的总结</h1>
 - light：平行光、点光源、聚光灯、区域光。
 - 3D物体对象：3由各种显示组件构成：Mesh、Mesh Renderer、Materials和Shaders。
 - terrain：地形的制作主要是通过各种形状的刷子进行造山、刷地、种草和种树。
