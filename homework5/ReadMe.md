@@ -16,3 +16,5 @@ Adapter链接：http://www.runoob.com/design-pattern/adapter-pattern.html
 
 <br>
 视频链接：
+http://v.youku.com/v_show/id_XMzU2MTc3NjI3Ng==.html?spm=a2h3j.8428770.3416059.1
+
